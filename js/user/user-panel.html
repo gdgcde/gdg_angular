@@ -3,14 +3,13 @@
 
 	<div class="mdl-card">
 	  <div class="mdl-card__title">
-	    <h2 class="mdl-card__title-text">{{u.login}}</h2>
+	    <h2 class="mdl-card__title-text">{{u.name}}</h2>
 	  </div>
 	  <div class="mdl-card__media">
 	   <img ng-src="{{u.avatar_url}}" class="img-small img-circle"  width="220" height="140" border="0" alt="" style="padding:2px;">
 	  </div>
 	  <div class="mdl-card__supporting-text">
-	    This text might describe the photo and provide further information, such as where and
-	    when it was taken.
+	    {{u.login}}
 	  </div>
 	  <div class="mdl-card__actions">
 	    <a href="#">Related Action</a>
