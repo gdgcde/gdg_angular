@@ -4,15 +4,18 @@ angular.module('userModule',[])
 
 		return {
 			getUser:function() {
-				return $http.get('https://api.github.com/users');
+				return $http.get('server/usuarios.json');
+			},
+			saveUser:function(user){
+				//TODO salva el usuario
 			}
 		};
 	})
 	
-	.directive('userPanel',function(){
+	.directive('userPanel',function(userServiceFactory){
 		return {
 			templateUrl:'js/user/user-panel.html',
-			controller:function(userServiceFactory){
+			controller:function(){
 				userCtrl = this;
 
 				userServiceFactory.getUser()
@@ -27,8 +30,8 @@ angular.module('userModule',[])
 	.directive('userForm',function(){
 		return {
 			templateUrl:'js/user/user-form.html',
-			controller:function(){
-
+			controller:function(userServiceFactory){
+				userControl = this;
 			}
 		}
 	});
