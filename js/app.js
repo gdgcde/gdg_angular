@@ -1,3 +1,3 @@
 (function() {
-	angular.module('app',['userModule'])
+	angular.module('app',['userModule','routeApp']);
 })();
