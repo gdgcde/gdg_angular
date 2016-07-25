@@ -5,10 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "bower": "^1.7.9",
+    "gulp-inject": "^4.1.0",
     "wiredep": "^4.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
     "local-web-server": "^1.2.6"
   },
   "scripts": {
