@@ -2,7 +2,6 @@
 <html ng-app="app">
 <head>
 	<title>GDG Ciudad del Este</title>
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
@@ -30,6 +29,8 @@
 
   	<script src="/js/event/event.js"></script>
 
+  	<script src="/js/routes/routes.js"></script>
+
   	<script src="/js/user/user.js"></script>
 
   	<!-- endinject -->
@@ -38,12 +39,13 @@
 	<body class="container">
 		<h1>GDG Ciudad del Este</h1>
 
-		<div class="container">
-			
-			<user-panel></user-panel>
+		<nav-route></nav-route>
 
-			<div user-panel></div>		
-			<user-form></user-form>
+		<div class="container">
+
+			<div ng-view></div>
+			
+			
 		</div>
 	</body>
 </html>
