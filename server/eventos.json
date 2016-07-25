@@ -1,0 +1,22 @@
+[
+	{
+		"name":"Angular Meet Up",
+		"description":"Lorem ipsum in soliruin look",
+		"location":"location mock",
+		"status":"true"
+	},
+
+
+	{
+		"name":"Angular Meet Up",
+		"description":"Lorem ipsum in soliruin look",
+		"location":"location mock",
+		"status":"true"
+	},
+	{
+		"name":"Angular Meet Up",
+		"description":"Lorem ipsum in soliruin look",
+		"location":"location mock",
+		"status":"true"
+	}
+]

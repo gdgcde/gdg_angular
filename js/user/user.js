@@ -1,4 +1,5 @@
-angular.module('userModule',[])
+(function() {
+	angular.module('userModule',[])
 
 	.factory('userServiceFactory',function($http){
 
@@ -34,6 +35,5 @@ angular.module('userModule',[])
 				userControl = this;
 			}
 		}
-	});
-
-	
+	});	
+})();

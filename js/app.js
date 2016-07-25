@@ -1,1 +1,3 @@
-angular.module('app',['userModule'])
+(function() {
+	angular.module('app',['userModule'])
+})();
